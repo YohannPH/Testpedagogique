@@ -2,10 +2,51 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Ma première page HTML</title>
+  <title>Alerte sécurité !</title>
+  <style>
+    body {
+      background-color: #fef0f0;
+      color: #611111;
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 0;
+      color: #a11;
+    }
+    .danger {
+      font-weight: bold;
+      color: #a00;
+    }
+    ul {
+      text-align: left;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+    .signature {
+      margin-top: 2rem;
+      font-style: italic;
+    }
+  </style>
 </head>
 <body>
-  <h1>Bonjour !</h1>
-  <p> Je viens de pirater vos données personnelles 🎉</p>
+  <h1>🚨 ALERTE HAMEÇONNAGE 🚨</h1>
+  <h2 class="danger">Vos données ont failli être volées !</h2>
+  <p>En cliquant sur le lien dans votre courriel, vous auriez pu :</p>
+  <ul>
+    <li>✔️ Transmettre votre mot de passe à un pirate</li>
+    <li>✔️ Permettre l'installation d'un logiciel espion sur votre appareil</li>
+    <li>✔️ Voir toutes vos informations bancaires siphonnées</li>
+  </ul>
+  <p class="signature">
+    Signé : votre conseiller numérique<br>
+    (Heureusement, ce n’était qu’un test 😉)
+  </p>
 </body>
 </html>
