@@ -1,52 +1,40 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Alerte sécurité !</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Atelier numérique</title>
   <style>
     body {
-      background-color: #fef0f0;
-      color: #611111;
       font-family: Arial, sans-serif;
-      padding: 2rem;
+      background-color: #fefefe;
+      color: #333;
       text-align: center;
+      padding: 50px;
     }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
+    img {
+      width: 200px;
+      border-radius: 10px;
+      margin-bottom: 20px;
     }
-    h2 {
-      font-size: 1.5rem;
-      margin-top: 0;
-      color: #a11;
-    }
-    .danger {
-      font-weight: bold;
-      color: #a00;
-    }
-    ul {
-      text-align: left;
-      display: inline-block;
-      margin-top: 1rem;
-    }
-    .signature {
-      margin-top: 2rem;
-      font-style: italic;
+    .message {
+      font-size: 1.2em;
+      margin-top: 20px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
     }
   </style>
 </head>
 <body>
-  <h1>🚨 ALERTE HAMEÇONNAGE 🚨</h1>
-  <h2 class="danger">Vos données ont failli être volées !</h2>
-  <p>En cliquant sur le lien dans votre courriel, vous auriez pu :</p>
-  <ul>
-    <li>✔️ Transmettre votre mot de passe à un pirate</li>
-    <li>✔️ Permettre l'installation d'un logiciel espion sur votre appareil</li>
-    <li>✔️ Voir toutes vos informations bancaires siphonnées</li>
-  </ul>
-  <p class="signature">
-    Signé : votre conseiller numérique<br>
-    (Heureusement, ce n’était qu’un test dans le cadre du futur atelier sur le thème de l'hameçonnage ! 😉)
-  </p>
+  <!-- GIF animé du conseiller numérique -->
+  <img src="https://i.imgur.com/g3cRWCe.gif" alt="Conseiller numérique" />
+
+  <div class="message">
+    <p><strong>Bonjour ! C'est votre conseiller numérique.</strong></p>
+    <p>Ce lien était un test dans le cadre de notre atelier ! 😉</p>
+    <p>N'oubliez pas ! Avant de cliquer, prenez toujours le temps de vérifier.</p>
+    <p>À bientôt.</p>
+  </div>
 </body>
 </html>
